@@ -1,0 +1,2 @@
+react==(16.1.1)
+javascript==(ECMAScript 6)

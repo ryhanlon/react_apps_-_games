@@ -1,0 +1,177 @@
+/*font-family: 'Space Mono', monospace;*/
+/*font-family: 'Yeseva One', cursive;*/
+/*font-family: 'Nosifer', cursive;*/
+/*font-family: 'Iceland', cursive;*/
+
+/* add ot App.css */
+body,
+html,
+#root {
+    height: 100%;
+}
+
+html {
+    font-size: 18px;
+}
+
+h1 {
+    padding: 1.50rem 0;
+    background-color: rgba(20, 1, 13, 1);
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+    font-size: 1.88rem;
+    color: #fff;
+}
+
+h1 .highlight {
+    color: rgba(255, 147, 9, 1);
+}
+
+h2 {
+    font-family: 'Iceland', cursive;
+    font-size: 1.55rem;
+}
+
+.App {
+    max-height: 115vh;
+    padding: 0;
+    background-image: url('./sun_deskTop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Iceland', cursive;
+    font-weight: 500;
+    color: #fff;
+}
+
+/*.App-playlist {*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*width: 100%;*/
+/*}*/
+
+@media only screen and (max-width: 1020px) {
+    .App-playlist {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+/*end for App.css*/
+
+/* for TempBar.css */
+.TempBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6.94rem;
+    margin-bottom: 6.33rem;
+    /*background-image: url('./sun_deskTop.jpg');*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+}
+
+.TempBar input {
+    width: 287px;
+    padding: .88rem 0;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-bottom: 2.22rem;
+    color: #010c3f;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.TempBar input:focus {
+    outline: none;
+}
+
+.TempBar a {
+    cursor: pointer;
+    width: 8.11rem;
+    padding: .77rem 0;
+    border-radius: 54px;
+    background-color: rgba(3, 3, 3, 1);
+    text-align: center;
+    font-size: 1.2rem;
+    transition: background-color .25s;
+}
+
+.TempBar a:hover {
+    background-color: rgba(3, 3, 3, 0.5);
+}
+/* end for TempBar.css */
+
+/* for TempResultBar.css */
+.TempResultsBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding: .88rem;
+    background-color: rgba(3, 3, 3, 0.7);
+    box-shadow: 0 4px 2px 2px #000000;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+    .TempResultsBar {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}
+/* end for TempResultBar.css */
+
+
+/*.Playlist {*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*overflow-y: scroll;*/
+    /*width: 37%;*/
+    /*max-height: 950px;*/
+    /*padding: 2.27rem 1.16rem;*/
+    /*background-color: rgba(1, 12, 63, 0.7);*/
+    /*box-shadow: 0 4px 2px 2px #000000;*/
+/*}*/
+
+/*.Playlist-save:hover {*/
+    /*background-color: rgba(108, 65, 233, .7);*/
+/*}*/
+
+/* for TempResults.css */
+.results {
+    background-color: rgba(3, 3, 3, 0.1);
+    padding: .5rem 0 0 0;
+    font-family: 'Iceland', cursive;
+    font-size: 3rem;
+}
+
+.answer {
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    background-color: rgba(3, 3, 3, 0.1);
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+/* for TempResults.css */
+
+
+
+/*@media only screen and (max-width: 1020px) {*/
+    /*.Playlist {*/
+        /*width: 90%;*/
+    /*}*/
+/*}*/
+

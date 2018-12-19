@@ -1,0 +1,22 @@
+/*--- Scores.css, styling for the scores used for game ---*/
+
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    padding: 0 3rem;
+}
+
+.scoreComp {
+    font-family: 'Freckle Face', cursive;
+    font-size: 1.55rem;
+    padding: 0 0 0 4rem;
+}
+
+.scoreUser {
+    font-family: 'Freckle Face', cursive;
+    font-size: 1.55rem;
+    padding: 0 4rem 0 0;
+}

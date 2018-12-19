@@ -1,0 +1,7 @@
+/*--- GameHands.css, styling for game hands ---*/
+
+.handsStyle {
+    align-self: center;
+    height: 15rem;
+    width: 15rem;
+}

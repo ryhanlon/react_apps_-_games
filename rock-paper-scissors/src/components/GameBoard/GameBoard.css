@@ -1,0 +1,17 @@
+/*--- GameBoard.css, styling game area/bar ---*/
+
+.GameBoard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50vh;
+    background-color: rgba(3, 3, 3, 0.7);
+    box-shadow: 0 4px 2px 2px #000000;
+}
+
+.gameSpace {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+

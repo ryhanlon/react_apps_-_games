@@ -1,0 +1,37 @@
+/*font-family: 'Space Mono', monospace;*/
+/*font-family: 'Yeseva One', cursive;*/
+/*font-family: 'Nosifer', cursive;*/
+/*font-family: 'Iceland', cursive;*/
+
+/* for TempResults.css */
+.results {
+    background-color: rgba(3, 3, 3, 0.1);
+    padding: .5rem 0 0 0;
+    font-family: 'Iceland', cursive;
+    font-size: 3rem;
+}
+
+.answer {
+    padding: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    background-color: rgba(3, 3, 3, 0.1);
+    /*text-align: center;*/
+    margin: .5rem;
+}
+
+.message-picture {
+    width: 70%;
+}
+
+.message-text {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/*::-webkit-scrollbar {*/
+    /*width: 0px;*/
+    /*background: transparent;*/
+/*}*/
+/* for TempResults.css */

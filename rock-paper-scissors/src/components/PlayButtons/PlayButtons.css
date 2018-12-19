@@ -1,0 +1,8 @@
+/*--- PlayButtons.css, hand-buttons to play the game ---*/
+
+.buttonStyle {
+    align-self: flex-start;
+    height: 7rem;
+    width: 7rem;
+    padding: 0 2rem;
+}

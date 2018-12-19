@@ -1,0 +1,68 @@
+/*font-family: 'Space Mono', monospace;*/
+/*font-family: 'Yeseva One', cursive;*/
+/*font-family: 'Nosifer', cursive;*/
+/*font-family: 'Iceland', cursive;*/
+
+/* add ot App.css */
+body,
+html,
+#root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+h1 {
+    padding: 1.2rem 0;
+    background-color: rgba(20, 1, 13, 1);
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0;
+}
+
+h1 .highlight {
+    color: rgba(255, 147, 9, 1);
+    /*margin: 0;*/
+}
+
+h2 {
+    font-family: 'Iceland', cursive;
+    font-size: 1.55rem;
+}
+
+.App {
+    max-height: 160vh;
+    padding: 0;
+    background-image: url('./sun_deskTop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Iceland', cursive;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+/*.App-playlist {*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*width: 100%;*/
+/*}*/
+
+
+@media only screen and (max-width: 1020px) {
+    .App-playlist {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+/*end for App.css*/

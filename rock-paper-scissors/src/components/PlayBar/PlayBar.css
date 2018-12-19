@@ -1,0 +1,9 @@
+/*--- PlayBar.css, styling for the button area/bar ---*/
+
+.buttonBar {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 1rem 0 1rem;
+    background-color: rgba(233, 55, 111, 0.7);
+}

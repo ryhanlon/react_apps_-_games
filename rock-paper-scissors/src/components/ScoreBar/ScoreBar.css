@@ -1,0 +1,30 @@
+/*--- in ScoreBar.css, styling for the score area/bar ---*/
+
+.ScoreBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px inset rgba(233, 55, 111, 0.7);
+    /*padding: .5rem;*/
+    background-color: rgba(196, 78, 233, 0.5);
+}
+
+.compContainer {
+    width: 287px;
+    /*padding: .88rem 0;*/
+    text-align: center;
+}
+
+.compContainer {
+    width: 287px;
+    /*padding: .88rem 0;*/
+    text-align: center;
+}
+
+.CompName {
+    order: 2;
+    font-family: 'Freckle Face', cursive;
+    color: rgba(255, 147, 9, 1);
+    font-size: 1.5em;
+}
