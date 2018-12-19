@@ -8,7 +8,7 @@ Below is a list of the different projects with a brief description.
 
 ==================================================================
 ### TempConVert
-file: tempconverter  
+file: tempconverter
 ![picture of app](tempStartPage-med.png)
 
 _TempConVert_ is a web app that converts Kelvin to Celsius and Fahrenheit.
@@ -28,24 +28,24 @@ Next project up.
 
 ===================================================================
 
-### jammming
-file: jammming
+<!--### jammming-->
+<!--file: jammming-->
 
-![picture of app](jammming-med.png)
+<!--![picture of app](jammming-med.png)-->
 
-_Jammming_ is a React application built using the Spotify API which allows users to search the Spotify library, create a custom playlist and then save it to their Spotify account.
+<!--_Jammming_ is a React application built using the Spotify API which allows users to search the Spotify library, create a custom playlist and then save it to their Spotify account.-->
 
-link to feature request  [Feature Request](./jammming/jammming_feature_request.txt)
+<!--link to feature request  [Feature Request](./jammming/jammming_feature_request.txt)-->
 
-link to file [jammming file](https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/jammming)
+<!--link to file [jammming file](https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/jammming)-->
 
 ===================================================================
 
-### Ravenous
-file: proRavenous-1
+<!--### Ravenous-->
+<!--file: proRavenous-1-->
 
-![picture of app](ravenous-med.png)
+<!--![picture of app](ravenous-med.png)-->
 
-_Ravenous_ is a React application build using the Yelp API which allows user to search the Yelp library by _Best Match_, _Highest Rated_ and _Most Reviewed_. 
+<!--_Ravenous_ is a React application build using the Yelp API which allows user to search the Yelp library by _Best Match_, _Highest Rated_ and _Most Reviewed_. -->
 
-link to file [proRavenous-1 file](https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/proRavenous-1)
+<!--link to file [proRavenous-1 file](https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/proRavenous-1)-->
