@@ -3,6 +3,11 @@ import './App.css';
 import TempBar from '../TempBar/TempBar';
 import TempResults from '../TempResults/TempResults';
 
+import hot from './img/solar.jpg';
+import sunny from './img/wave.jpg';
+import cool from './img/hiking.jpg';
+import cold from './img/glacier-glide.jpg';
+
 
 class App extends Component {
 
@@ -28,13 +33,13 @@ class App extends Component {
         }
 
         if (this.fahrenheit > 500) {
-            this.message = <div><p className="message-text">Solar sailing!</p><img className="message-picture" src={require("./solar.jpg")}/></div>;
+            this.message = <div><p className="message-text">Solar sailing!</p><img className="message-picture" src={hot} alt='Surface of the sun'/></div>;
         } else if(this.fahrenheit > 200) {
-            this.message = <div><p className="message-text">Catch a wave!</p><img className="message-picture" src={require("./hiking.jpg")}/></div>;
-        } else if(this.fahrenheit > 80) {
-            this.message = <div><p className="message-text">Hiking time!</p><img className="message-picture" src={require("./wave.jpg")}/></div>;
+            this.message = <div><p className="message-text">Catch a wave!</p><img className="message-picture" src={sunny} alt='Surfing a large wave'/></div>;
+        } else if(this.fahrenheit > 50) {
+            this.message = <div><p className="message-text">Hiking time!</p><img className="message-picture" src={cool} alt='A hiking path'/></div>;
         } else {
-            this.message =  <div><p className="message-text">Glacier glide!</p><img className="message-picture" src={require("./glacier-glide.jpg")}/></div>;
+            this.message =  <div><p className="message-text">Glacier glide!</p><img className="message-picture" src={cold} alt='Penguin sliding on ice'/></div>;
         }
 
         this.setState({
