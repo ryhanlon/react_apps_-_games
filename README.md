@@ -9,15 +9,16 @@ Below is a list of the different projects with a brief description.
 ==================================================================
 ### TempConVert
 file: tempconverter
-![picture of app](tempStartPage-med.png)
+
+![picture of app](./docs/img/tempStartPage-med.png)
 
 _TempConVert_ is a web app that converts Kelvin to Celsius and Fahrenheit.
 
 The goal of this project was to transform this terminal based app into a web app using React.
 
-link to project proposal  [TempConVert proposal](./tempconverter/docs/my_proposal.md)
+link to project proposal  [TempConVert proposal](./docs/mapping/tempconverter/docs/my_proposal.md)
 
-link to file [TempConVert file](https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/tempconverter
+link to file [TempConVert file](https://github.com/ryhanlon/react_apps_-_games/tree/master/tempconverter
 
 ===================================================================
 

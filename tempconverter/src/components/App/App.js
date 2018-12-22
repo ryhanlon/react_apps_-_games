@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import TempBar from '../TempBar/TempBar';
-import TempResultBar from '../TempResultBar/TempResultBar';
+import TempResults from '../TempResults/TempResults';
 
 
 class App extends Component {
@@ -54,7 +54,7 @@ class App extends Component {
                 <main className="App">
 
                     <TempBar onConvertTemp={this.convertKelvin}/>
-                    <TempResultBar fahResult={this.state.fahrenheit}
+                    <TempResults fahResult={this.state.fahrenheit}
                                    celResult={this.state.celsius}
                                    answerResult={this.state.answer}
                                    messageResult={this.message} />
