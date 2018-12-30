@@ -1,19 +1,22 @@
 ### TempConVert, by Rebecca York Hanlon
 
-### Product Name,
-TempConVert
+#### Product Name: _TempConVert_
 
 ### Product Overview
 
-TempConVert is a web app that converts Kelvin to Celsius and Fahrenheit.  The user enters a number that represents Kalvin, clicks convert and the result is K converted to Fahrenheit and Celsius. 
+TempConVert is a web app that converts Kelvin to Celsius and Fahrenheit.  The user enters a number that represents Kalvin, clicks convert and the result is K converted to Fahrenheit and Celsius.
 
 For this stage I will not focus on the perfect ux design and look of the website, but on the framework and design of components.
 
-The first stage will focus on the following:
-1. Design the UX of the app
+The first stage of App:
+1. UX Design
+    - Responsive Design
+    - Accessibility
+    - User Interactivity
 2. Build a static web page of the application.
-3. Build the static Components.
-4. Build interactivity by developing the Components using methods, states and props.
+3. Build App in React
+    - Build the Components from the static site
+    - Add interactivity by using methods, states and props.
 
 
 ### Specific Functionality
@@ -65,8 +68,8 @@ Here is a visual breakdown of the props and states:
 The beginning of this project was originally completed during the JavaScript portion of the class using the terminal.  The goal of this project is to transform into a web app using React.
 
 ****day one - day two:****
-- visual design of project's UX 
-- begin mapping of static components 
+- visual design of project's UX
+- begin mapping of static components
 - begin mapping of props, states
 
 

@@ -12,7 +12,7 @@ class TempResultBar extends React.Component {
 
                       <p className="answer">{this.props.answerResult}</p>
 
-                      <section className="message">{this.props.messageResult}</section>
+                    <section className="message">{this.props.messageResult}</section>
 
                 {/*</div>*/}
 

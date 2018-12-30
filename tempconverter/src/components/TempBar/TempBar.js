@@ -26,7 +26,7 @@ class TempBar extends React.Component {
     render() {
         return (
             <section className="TempBar">
-                <input placeholder="Enter Temperature"
+                <input placeholder="Enter Kalvin"
                        type="number"
                        onChange={this.handleTempChange}/>
 

@@ -16,10 +16,9 @@ link to project:
 
 React is used to build the webpage and add interactivity.
 
-To further develop this project the following will be added:
 1. Develop a web page with a user interface.
-* first a static html page for basic design
-* break up into components for React [more details]()
+    * first a static html page for basic design
+    * break up into components for React [more details]()
 
 2. Add additional logic (conditional) for the responses to add some humor.
 

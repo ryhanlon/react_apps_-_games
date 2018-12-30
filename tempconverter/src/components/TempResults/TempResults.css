@@ -6,12 +6,11 @@
 /* for TempResultBar.css */
 .TempResultsBar {
     display: flex;
-    /*justify-content: center;*/
+    /*justify-content: space-around;*/
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 80vh;
-    /*padding: .88rem;*/
+    /*align-items: center;*/
+    width: 100vw;
+    height: 80%;
     background-color: rgba(3, 3, 3, 0.7);
     box-shadow: 0 4px 2px 2px #000000;
     margin: 0;
@@ -47,7 +46,7 @@
 .message-picture {
     display: block;
     width: 70%;
-    /*align-self: center;*/
+    padding: 1rem 2rem 1rem;
     margin-left: auto;
     margin-right: auto;
 }
