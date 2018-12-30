@@ -39,7 +39,7 @@ h2 {
 }
 
 .App {
-    height: 100vh;
+    min-height: 100vh;
     padding: 0;
     background-image: url('img/sun_deskTop.jpg');
     background-size: cover;
