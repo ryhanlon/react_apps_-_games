@@ -3,7 +3,7 @@
 /*font-family: 'Nosifer', cursive;*/
 /*font-family: 'Iceland', cursive;*/
 
-/* add ot App.css */
+
 body,
 html,
 #root {
@@ -12,6 +12,7 @@ html,
 
 body {
     margin: 0;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 html {
@@ -26,6 +27,7 @@ h1 {
     font-size: 1.5rem;
     color: #fff;
     margin: 0;
+    width: 100vw;
 }
 
 h1 .highlight {
@@ -41,7 +43,7 @@ h2 {
 .App {
     min-height: 100vh;
     padding: 0;
-    background-image: url('img/sun_deskTop.jpg');
+    background-image: url('img/sun_mobile.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,18 +53,25 @@ h2 {
     margin: 0;
 }
 
-/*.App-playlist {*/
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*width: 100%;*/
-/*}*/
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-
-@media only screen and (max-width: 1020px) {
-    .App-playlist {
-        align-items: center;
-        flex-direction: column;
+/* For small tablets */
+@media only screen and (min-width: 768px) {
+    .App {
+        background-image: url('img/sun_tablet-1.jpg');
     }
 }
 
-/*end for App.css*/
+
+
+/* For Desktops */
+@media only screen and (min-width: 1020px) {
+    .App {
+        background-image: url('img/sun_deskTop.jpg');
+    }
+}

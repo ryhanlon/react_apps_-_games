@@ -1,38 +1,39 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './TempBar.css';
 
 
-class TempBar extends React.Component {
-    constructor(props) {
-        super(props);
+class TempBar extends Component {
 
-        this.state = {
-            kelvinInput: null,
-        };
+    state = {
+        kelvinInput: '',
+    };
 
-        this.convertTemp = this.convertTemp.bind(this);
-        this.handleTempChange = this.handleTempChange.bind(this);
-    }
-
-    convertTemp() {
+    convertTemp = () => {
         this.props.onConvertTemp(this.state.kelvinInput);
-    }
+    };
 
-    handleTempChange(event) {
+    handleTempChange = (event) => {
         event.preventDefault();
         this.setState({kelvinInput: event.target.value});
-    }
+    };
+
+    handleSubmit = (e) => {
+        e.preventDefault();
+    };
 
     render() {
         return (
             <section className="TempBar">
-                <input placeholder="Enter Kalvin"
-                       type="number"
-                       onChange={this.handleTempChange}/>
+                <form onSubmit={this.handleSubmit}>
+                    <input placeholder="Enter Kalvin"
+                           type="number"
+                           onChange={this.handleTempChange}/>
 
-                <button className="convert-button"
-                        type="submit"
-                    onClick={this.convertTemp}>Convert</button>
+                    <button className="convert-button"
+                            type="submit"
+                            onClick={this.convertTemp}>Convert
+                    </button>
+                </form>
             </section>
         )
     }

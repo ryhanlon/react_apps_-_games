@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './TempResults.css';
 
 
-class TempResultBar extends React.Component {
+class TempResultBar extends Component {
 
     render() {
         return (

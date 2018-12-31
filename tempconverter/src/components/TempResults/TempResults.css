@@ -47,3 +47,18 @@
     margin: 0 0 1rem 0;
 }
 
+/*===== Range of iPad =====*/
+
+/*@media screen and (min-width: 767px) {*/
+    /*#search-field {*/
+        /*width: 19vw;*/
+    /*}*/
+/*}*/
+
+/*===== Range of Desktop =====*/
+
+/*@media screen and (min-width: 767px) {*/
+    /*#search-field {*/
+        /*width: 19vw;*/
+    /*}*/
+/*}*/

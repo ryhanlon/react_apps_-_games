@@ -12,8 +12,8 @@ import cold from './img/glacier-glide.jpg';
 class App extends Component {
 
     state = {
-        fahrenheit: 'hi',
-        celsius: 'hi',
+        fahrenheit: '',
+        celsius: '',
         answer: '',
         message: ''
     };
@@ -27,7 +27,7 @@ class App extends Component {
 
         this.answer = `The temperature is ${this.fahrenheit}° degrees Fahrenheit and ${this.celsius}° degrees celsius.`;
 
-        if (kelvinTemp === null) {
+        if (kelvinTemp === null || kelvinTemp === '') {
             alert("Hey! Enter a number, Sugar.");
             return false;
         }
@@ -52,7 +52,7 @@ class App extends Component {
 
     render() {
         return (
-            <div>
+            <div className="app-container">
                 <header>
                 <h1>Temp<span className="highlight">Con</span>Vert</h1>
                 </header>
