@@ -6,13 +6,13 @@ class TempResultBar extends Component {
 
     render() {
         return (
-            <section className="TempResultsBar">
+            <section className="TempResultsBar" role="presentation" aria-label="temperature-results">
                 {/*<div className="TempResultsBar">*/}
-                    <h1 className="results">Results</h1>
+                    <h1 className="results" tabIndex="0">Results</h1>
 
-                      <p className="answer">{this.props.answerResult}</p>
+                    <p className="answer" tabIndex="0">{this.props.answerResult}</p>
 
-                    <section className="message">{this.props.messageResult}</section>
+                    <div className="message" tabIndex="0">{this.props.messageResult}</div>
 
                 {/*</div>*/}
 

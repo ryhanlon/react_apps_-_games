@@ -33,13 +33,13 @@ class App extends Component {
         }
 
         if (this.fahrenheit > 500) {
-            this.message = <div><p className="message-text">Solar sailing!</p><img className="message-picture" src={hot} alt='Surface of the sun'/></div>;
+            this.message = <div><p className="message-text">Solar sailing!</p><img className="message-picture" role="img" tabIndex="0" src={hot} alt='Surface of the sun'/></div>;
         } else if(this.fahrenheit > 200) {
-            this.message = <div><p className="message-text">Catch a wave!</p><img className="message-picture" src={sunny} alt='Surfing a large wave'/></div>;
+            this.message = <div><p className="message-text">Catch a wave!</p><img className="message-picture" role="img" tabIndex="0" src={sunny} alt='Surfing a large wave'/></div>;
         } else if(this.fahrenheit > 50) {
-            this.message = <div><p className="message-text">Hiking time!</p><img className="message-picture" src={cool} alt='A hiking path'/></div>;
+            this.message = <div><p className="message-text">Hiking time!</p><img className="message-picture" role="img" tabIndex="0" src={cool} alt='A hiking path'/></div>;
         } else {
-            this.message =  <div><p className="message-text">Glacier glide!</p><img className="message-picture" src={cold} alt='Penguin sliding on ice'/></div>;
+            this.message =  <div><p className="message-text">Glacier glide!</p><img className="message-picture" role="img" tabIndex="0"  src={cold} alt='Penguin sliding on ice'/></div>;
         }
 
         this.setState({
@@ -53,8 +53,8 @@ class App extends Component {
     render() {
         return (
             <div className="app-container">
-                <header>
-                <h1>Temp<span className="highlight">Con</span>Vert</h1>
+                <header className="header" role="banner" tabIndex="0" aria-label="site-name">
+                <h1 tabIndex="0">Temp<span className="highlight">Con</span>Vert</h1>
                 </header>
                 <main className="App">
 
@@ -65,6 +65,10 @@ class App extends Component {
                                    messageResult={this.message} />
 
                 </main>
+
+                <footer className="footer" tabIndex="0" role="contentinfo">
+                    <h4>© Copyright RebeccaYorkHanlon 2019</h4>
+                </footer>
             </div>
         )
     }
