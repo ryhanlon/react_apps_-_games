@@ -47,6 +47,11 @@
     margin: 0 0 1rem 0;
 }
 
+:focus {
+    outline: 4px dashed rgba(255, 147, 9, 1);
+    outline-offset: 2px;
+}
+
 /*===== Range of iPad =====*/
 
 /*@media screen and (min-width: 767px) {*/

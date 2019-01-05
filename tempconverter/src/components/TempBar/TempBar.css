@@ -27,8 +27,8 @@
 }
 
 .TempBar input:focus {
-    outline: none;
-    border: 4px dashed rgba(255, 147, 9, 1);
+    outline: 4px dashed rgba(255, 147, 9, 1);
+    outline-offset: 2px;
     background-color: rgb(194, 194, 194);
 }
 
@@ -47,4 +47,9 @@
 .TempBar button:hover {
     background-color: rgba(3, 3, 3, 0.5);
 }
-/* end for TempBar.css */
+
+.TempBar button:focus {
+    outline: 4px dashed rgba(255, 147, 9, 1);
+    outline-offset: 2px;
+}
+
