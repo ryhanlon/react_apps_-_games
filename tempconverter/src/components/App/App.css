@@ -60,6 +60,13 @@ h2 {
     flex-direction: column;
 }
 
+.footer {
+    background-color: rgba(20, 1, 13, 1);
+    width: 100vw;
+    color: #fff;
+    text-align: center;
+}
+
 /* For small tablets */
 @media only screen and (min-width: 768px) {
     .App {
