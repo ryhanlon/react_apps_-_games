@@ -5,14 +5,14 @@
 
 .TempResultsBar {
     display: flex;
-    /*justify-content: space-around;*/
+    justify-content: center;
     flex-direction: column;
-    /*align-items: center;*/
-    width: 100vw;
-    height: 80%;
+    align-items: center;
+    width: 90vw;
+    height: 80vh;
     background-color: rgba(3, 3, 3, 0.7);
     box-shadow: 0 4px 2px 2px #000000;
-    margin: 0;
+    margin: auto;
 }
 
 .results {
@@ -20,6 +20,7 @@
     padding: .5rem 0 0 0;
     font-family: 'Iceland', cursive;
     font-size: 2.5rem;
+    width: 100%;
 }
 
 .answer {
@@ -33,12 +34,26 @@
     border-bottom: 2px solid white;
 }
 
+.message {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.message-container {
+    justify-self: center;
+    align-self: center;
+    /*display: block;*/
+    /*width: 70%;*/
+    /*padding: 1rem 2rem 1rem;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
 .message-picture {
-    display: block;
-    width: 70%;
-    padding: 1rem 2rem 1rem;
-    margin-left: auto;
-    margin-right: auto;
+    width: 70vw;
+    height: 35vh;
 }
 
 .message-text {
@@ -54,16 +69,40 @@
 
 /*===== Range of iPad =====*/
 
-/*@media screen and (min-width: 767px) {*/
-    /*#search-field {*/
-        /*width: 19vw;*/
-    /*}*/
-/*}*/
+@media screen and (min-width: 767px) {
+    #search-field {
+        width: 19vw;
+    }
 
-/*===== Range of Desktop =====*/
+    .message-picture {
+    width: 70vw;
+    height: 47vh;
+}
+}
 
-/*@media screen and (min-width: 767px) {*/
-    /*#search-field {*/
-        /*width: 19vw;*/
-    /*}*/
-/*}*/
+/*===== Range of ipadpro =====*/
+
+@media screen and (min-width: 1020px) {
+    .message {
+        height: 77%;
+    }
+    .message-picture {
+        /*width: 70vw;*/
+        height: 50vh;
+    }
+}
+
+/*===== Range of desktop =====*/
+
+@media screen and (min-width: 1020px) {
+    .TempResultsBar {
+        width: 60vw;
+    }
+    .message {
+        height: 77%;
+    }
+    .message-picture {
+        width: 40vw;
+        height: 50vh;
+    }
+}

@@ -33,13 +33,13 @@ class App extends Component {
         }
 
         if (this.fahrenheit > 500) {
-            this.message = <div><p className="message-text">Solar sailing!</p><img className="message-picture" tabIndex="0" src={hot} alt='Surface of the sun'/></div>;
+            this.message = <div className="message-container"><p className="message-text">Solar sailing!</p><img className="message-picture" tabIndex="0" src={hot} alt='Surface of the sun'/></div>;
         } else if(this.fahrenheit > 200) {
-            this.message = <div><p className="message-text">Catch a wave!</p><img className="message-picture" tabIndex="0" src={sunny} alt='Surfing a large wave'/></div>;
+            this.message = <div className="message-container"><p className="message-text">Catch a wave!</p><img className="message-picture" tabIndex="0" src={sunny} alt='Surfing a large wave'/></div>;
         } else if(this.fahrenheit > 50) {
-            this.message = <div><p className="message-text">Hiking time!</p><img className="message-picture" tabIndex="0" src={cool} alt='A hiking path'/></div>;
+            this.message = <div className="message-container"><p className="message-text">Hiking time!</p><img className="message-picture" tabIndex="0" src={cool} alt='A hiking path'/></div>;
         } else {
-            this.message =  <div><p className="message-text">Glacier glide!</p><img className="message-picture" tabIndex="0"  src={cold} alt='Penguin sliding on ice'/></div>;
+            this.message =  <div className="message-container"><p className="message-text">Glacier glide!</p><img className="message-picture" tabIndex="0"  src={cold} alt='Penguin sliding on ice'/></div>;
         }
 
         this.setState({
@@ -67,7 +67,7 @@ class App extends Component {
                 </main>
 
                 <footer className="footer" tabIndex="0" role="contentinfo">
-                    <h4>© Copyright RebeccaYorkHanlon 2019</h4>
+                    <p>© Copyright RebeccaYorkHanlon 2019</p>
                 </footer>
             </div>
         )
